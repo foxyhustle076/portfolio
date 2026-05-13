@@ -6,19 +6,20 @@ import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
-export let smoother: ScrollSmoother;
+import { setSmoother } from "./utils/smoother";
 
 const Navbar = () => {
   useEffect(() => {
-    smoother = ScrollSmoother.create({
+    let smoother = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
       content: "#smooth-content",
-      smooth: 1.7,
-      speed: 1.7,
+      smooth: 1.2,
+      speed: 1.2,
       effects: true,
       autoResize: true,
       ignoreMobileResize: true,
     });
+    setSmoother(smoother);
 
     smoother.scrollTop(0);
     smoother.paused(true);
@@ -46,11 +47,11 @@ const Navbar = () => {
           Logo
         </a>
         <a
-          href="mailto:example@mail.com"
+          href="mailto:foxyhustle076@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          example@mail.com
+          foxyhustle076@gmail.com
         </a>
         <ul>
           <li>

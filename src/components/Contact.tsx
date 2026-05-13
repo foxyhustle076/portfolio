@@ -10,45 +10,31 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:example@mail.com" data-cursor="disable">
-                example@mail.com
+              <a href="mailto:foxyhustle076@gmail.com" data-cursor="disable">
+                foxyhustle076@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+9199999999" data-cursor="disable">
-                +91 99999 99999
+              <a href="tel:+919508937667" data-cursor="disable">
+                +91 95089 37667
+              </a>
+            </p>
+            <h4>Address</h4>
+            <p>
+              Subhash Nagar, Patna-26
+            </p>
+            <h4>Portfolio</h4>
+            <p>
+              <a href="http://www.reallygreatsite.com" target="_blank" data-cursor="disable">
+                www.reallygreatsite.com
               </a>
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Github <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
-            </a>
-            <a
-              href="https://x.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/foxy.hustle/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -58,7 +44,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Moncy Yohannan</span>
+              Designed and Developed <br /> by <span>ARYAN JAIS</span>
             </h2>
             <h5>
               <MdCopyright /> 2024
